@@ -1,0 +1,13 @@
+# Motor Matemático e IA
+torch
+transformers
+scikit-learn
+
+# Ingestão e Estruturação de Dados
+pandas
+openpyxl
+datasets
+
+# Diagnóstico Topológico (Gráficos)
+matplotlib
+seaborn

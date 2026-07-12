@@ -1,0 +1,11 @@
+# Ignorar o ambiente virtual (muito pesado)
+venv/
+
+# Ignorar os tensores processados e planilhas brutas
+data/raw/
+data/processed/
+
+# Ignorar arquivos temporários do Python e do VS Code
+__pycache__/
+.vscode/
+.ipynb_checkpoints/
