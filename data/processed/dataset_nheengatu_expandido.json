@@ -1,0 +1,2996 @@
+[
+  {
+    "palavra": "aé",
+    "significado": "ele",
+    "tokens": [
+      "ae"
+    ],
+    "input_ids": [
+      4089
+    ]
+  },
+  {
+    "palavra": "aé",
+    "significado": "ela",
+    "tokens": [
+      "ae"
+    ],
+    "input_ids": [
+      4089
+    ]
+  },
+  {
+    "palavra": "amurupi",
+    "significado": "diferente",
+    "tokens": [
+      "amurupi"
+    ],
+    "input_ids": [
+      3871
+    ]
+  },
+  {
+    "palavra": "kãtari",
+    "significado": "cantar",
+    "tokens": [
+      "ka",
+      "##tari"
+    ],
+    "input_ids": [
+      396,
+      363
+    ]
+  },
+  {
+    "palavra": "anâma",
+    "significado": "parente",
+    "tokens": [
+      "anama"
+    ],
+    "input_ids": [
+      1021
+    ]
+  },
+  {
+    "palavra": "anâma",
+    "significado": "amigo",
+    "tokens": [
+      "anama"
+    ],
+    "input_ids": [
+      1021
+    ]
+  },
+  {
+    "palavra": "anâma",
+    "significado": "família",
+    "tokens": [
+      "anama"
+    ],
+    "input_ids": [
+      1021
+    ]
+  },
+  {
+    "palavra": "nhunto",
+    "significado": "somente",
+    "tokens": [
+      "nh",
+      "##unto"
+    ],
+    "input_ids": [
+      345,
+      12613
+    ]
+  },
+  {
+    "palavra": "kaçakiri",
+    "significado": "atrás",
+    "tokens": [
+      "ka",
+      "##ca",
+      "##kiri"
+    ],
+    "input_ids": [
+      396,
+      829,
+      612
+    ]
+  },
+  {
+    "palavra": "kaá",
+    "significado": "floresta",
+    "tokens": [
+      "kaa"
+    ],
+    "input_ids": [
+      1091
+    ]
+  },
+  {
+    "palavra": "ára",
+    "significado": "tempo",
+    "tokens": [
+      "ara"
+    ],
+    "input_ids": [
+      320
+    ]
+  },
+  {
+    "palavra": "ára",
+    "significado": "dia",
+    "tokens": [
+      "ara"
+    ],
+    "input_ids": [
+      320
+    ]
+  },
+  {
+    "palavra": "amuára",
+    "significado": "outro dia",
+    "tokens": [
+      "amu",
+      "##ara"
+    ],
+    "input_ids": [
+      467,
+      425
+    ]
+  },
+  {
+    "palavra": "amuára",
+    "significado": "outra vez",
+    "tokens": [
+      "amu",
+      "##ara"
+    ],
+    "input_ids": [
+      467,
+      425
+    ]
+  },
+  {
+    "palavra": "timbiú",
+    "significado": "comida",
+    "tokens": [
+      "timbiu"
+    ],
+    "input_ids": [
+      7216
+    ]
+  },
+  {
+    "palavra": "tukũ",
+    "significado": "cesto",
+    "tokens": [
+      "tuku"
+    ],
+    "input_ids": [
+      1750
+    ]
+  },
+  {
+    "palavra": "murari",
+    "significado": "morar",
+    "tokens": [
+      "mura",
+      "##ri"
+    ],
+    "input_ids": [
+      390,
+      260
+    ]
+  },
+  {
+    "palavra": "araué",
+    "significado": "barata",
+    "tokens": [
+      "ara",
+      "##ue"
+    ],
+    "input_ids": [
+      320,
+      767
+    ]
+  },
+  {
+    "palavra": "açui",
+    "significado": "depois",
+    "tokens": [
+      "acu",
+      "##i"
+    ],
+    "input_ids": [
+      6645,
+      155
+    ]
+  },
+  {
+    "palavra": "açui",
+    "significado": "pois",
+    "tokens": [
+      "acu",
+      "##i"
+    ],
+    "input_ids": [
+      6645,
+      155
+    ]
+  },
+  {
+    "palavra": "atimasá",
+    "significado": "preguiça",
+    "tokens": [
+      "atima",
+      "##sa"
+    ],
+    "input_ids": [
+      5391,
+      273
+    ]
+  },
+  {
+    "palavra": "kutara",
+    "significado": "rápido",
+    "tokens": [
+      "kutara"
+    ],
+    "input_ids": [
+      1095
+    ]
+  },
+  {
+    "palavra": "kutara",
+    "significado": "ligeiro",
+    "tokens": [
+      "kutara"
+    ],
+    "input_ids": [
+      1095
+    ]
+  },
+  {
+    "palavra": "amum",
+    "significado": "outro",
+    "tokens": [
+      "amu",
+      "##m"
+    ],
+    "input_ids": [
+      467,
+      149
+    ]
+  },
+  {
+    "palavra": "amum",
+    "significado": "outra",
+    "tokens": [
+      "amu",
+      "##m"
+    ],
+    "input_ids": [
+      467,
+      149
+    ]
+  },
+  {
+    "palavra": "apekatú",
+    "significado": "longe",
+    "tokens": [
+      "apekatu"
+    ],
+    "input_ids": [
+      3551
+    ]
+  },
+  {
+    "palavra": "amũ",
+    "significado": "irmã",
+    "tokens": [
+      "amu"
+    ],
+    "input_ids": [
+      467
+    ]
+  },
+  {
+    "palavra": "waçaí",
+    "significado": "açai",
+    "tokens": [
+      "wa",
+      "##ca",
+      "##i"
+    ],
+    "input_ids": [
+      318,
+      829,
+      155
+    ]
+  },
+  {
+    "palavra": "apigá",
+    "significado": "homem",
+    "tokens": [
+      "apiga"
+    ],
+    "input_ids": [
+      11392
+    ]
+  },
+  {
+    "palavra": "amana",
+    "significado": "chuva",
+    "tokens": [
+      "amana"
+    ],
+    "input_ids": [
+      1902
+    ]
+  },
+  {
+    "palavra": "yapukuĩ",
+    "significado": "remar",
+    "tokens": [
+      "yapu",
+      "##kui"
+    ],
+    "input_ids": [
+      1251,
+      10965
+    ]
+  },
+  {
+    "palavra": "amurupi",
+    "significado": "diferente",
+    "tokens": [
+      "amurupi"
+    ],
+    "input_ids": [
+      3871
+    ]
+  },
+  {
+    "palavra": "yumanasaua",
+    "significado": "abraço",
+    "tokens": [
+      "yuma",
+      "##nas",
+      "##au",
+      "##a"
+    ],
+    "input_ids": [
+      1148,
+      7043,
+      1011,
+      148
+    ]
+  },
+  {
+    "palavra": "tapuyu",
+    "significado": "indígena",
+    "tokens": [
+      "tapu",
+      "##yu"
+    ],
+    "input_ids": [
+      849,
+      288
+    ]
+  },
+  {
+    "palavra": "aiurí",
+    "significado": "ajuntamento",
+    "tokens": [
+      "ai",
+      "##uri"
+    ],
+    "input_ids": [
+      2488,
+      802
+    ]
+  },
+  {
+    "palavra": "aiurí",
+    "significado": "reunião",
+    "tokens": [
+      "ai",
+      "##uri"
+    ],
+    "input_ids": [
+      2488,
+      802
+    ]
+  },
+  {
+    "palavra": "aiurí",
+    "significado": "mutirão",
+    "tokens": [
+      "ai",
+      "##uri"
+    ],
+    "input_ids": [
+      2488,
+      802
+    ]
+  },
+  {
+    "palavra": "ané",
+    "significado": "nunca",
+    "tokens": [
+      "an",
+      "##e"
+    ],
+    "input_ids": [
+      2746,
+      156
+    ]
+  },
+  {
+    "palavra": "yané",
+    "significado": "nosso",
+    "tokens": [
+      "yane"
+    ],
+    "input_ids": [
+      1290
+    ]
+  },
+  {
+    "palavra": "yané",
+    "significado": "nossa",
+    "tokens": [
+      "yane"
+    ],
+    "input_ids": [
+      1290
+    ]
+  },
+  {
+    "palavra": "anhemarâma",
+    "significado": "último",
+    "tokens": [
+      "anhe",
+      "##mara",
+      "##ma"
+    ],
+    "input_ids": [
+      5386,
+      1999,
+      269
+    ]
+  },
+  {
+    "palavra": "anhemarâma",
+    "significado": "última",
+    "tokens": [
+      "anhe",
+      "##mara",
+      "##ma"
+    ],
+    "input_ids": [
+      5386,
+      1999,
+      269
+    ]
+  },
+  {
+    "palavra": "nupá",
+    "significado": "bater",
+    "tokens": [
+      "nu",
+      "##pa"
+    ],
+    "input_ids": [
+      834,
+      361
+    ]
+  },
+  {
+    "palavra": "yu",
+    "significado": "espinho",
+    "tokens": [
+      "yu"
+    ],
+    "input_ids": [
+      310
+    ]
+  },
+  {
+    "palavra": "abá",
+    "significado": "homem",
+    "tokens": [
+      "ab",
+      "##a"
+    ],
+    "input_ids": [
+      4606,
+      148
+    ]
+  },
+  {
+    "palavra": "abá",
+    "significado": "gente",
+    "tokens": [
+      "ab",
+      "##a"
+    ],
+    "input_ids": [
+      4606,
+      148
+    ]
+  },
+  {
+    "palavra": "ãmiasí",
+    "significado": "faminto",
+    "tokens": [
+      "ami",
+      "##asi"
+    ],
+    "input_ids": [
+      9100,
+      925
+    ]
+  },
+  {
+    "palavra": "apekatu",
+    "significado": "longe",
+    "tokens": [
+      "apekatu"
+    ],
+    "input_ids": [
+      3551
+    ]
+  },
+  {
+    "palavra": "apekatu",
+    "significado": "distante",
+    "tokens": [
+      "apekatu"
+    ],
+    "input_ids": [
+      3551
+    ]
+  },
+  {
+    "palavra": "apu",
+    "significado": "satisfeito",
+    "tokens": [
+      "apu"
+    ],
+    "input_ids": [
+      1099
+    ]
+  },
+  {
+    "palavra": "araçupé",
+    "significado": "meio dia",
+    "tokens": [
+      "aracu",
+      "##pe"
+    ],
+    "input_ids": [
+      10875,
+      325
+    ]
+  },
+  {
+    "palavra": "arasupé",
+    "significado": "meio dia",
+    "tokens": [
+      "ara",
+      "##su",
+      "##pe"
+    ],
+    "input_ids": [
+      320,
+      271,
+      325
+    ]
+  },
+  {
+    "palavra": "aracú",
+    "significado": "peixe piau",
+    "tokens": [
+      "aracu"
+    ],
+    "input_ids": [
+      10875
+    ]
+  },
+  {
+    "palavra": "aracú",
+    "significado": "aracú",
+    "tokens": [
+      "aracu"
+    ],
+    "input_ids": [
+      10875
+    ]
+  },
+  {
+    "palavra": "kiçé",
+    "significado": "faca",
+    "tokens": [
+      "ki",
+      "##ce"
+    ],
+    "input_ids": [
+      608,
+      2122
+    ]
+  },
+  {
+    "palavra": "imirá",
+    "significado": "árvore",
+    "tokens": [
+      "im",
+      "##ira"
+    ],
+    "input_ids": [
+      6679,
+      297
+    ]
+  },
+  {
+    "palavra": "apú",
+    "significado": "cheio",
+    "tokens": [
+      "apu"
+    ],
+    "input_ids": [
+      1099
+    ]
+  },
+  {
+    "palavra": "apú",
+    "significado": "farto",
+    "tokens": [
+      "apu"
+    ],
+    "input_ids": [
+      1099
+    ]
+  },
+  {
+    "palavra": "kĩdara",
+    "significado": "quintal",
+    "tokens": [
+      "ki",
+      "##da",
+      "##ra"
+    ],
+    "input_ids": [
+      608,
+      511,
+      259
+    ]
+  },
+  {
+    "palavra": "yuaka",
+    "significado": "céu",
+    "tokens": [
+      "yua",
+      "##ka"
+    ],
+    "input_ids": [
+      2793,
+      265
+    ]
+  },
+  {
+    "palavra": "kaá",
+    "significado": "mato",
+    "tokens": [
+      "kaa"
+    ],
+    "input_ids": [
+      1091
+    ]
+  },
+  {
+    "palavra": "kaá",
+    "significado": "folha",
+    "tokens": [
+      "kaa"
+    ],
+    "input_ids": [
+      1091
+    ]
+  },
+  {
+    "palavra": "kaá",
+    "significado": "planta",
+    "tokens": [
+      "kaa"
+    ],
+    "input_ids": [
+      1091
+    ]
+  },
+  {
+    "palavra": "bóiauaçú",
+    "significado": "cobra grande",
+    "tokens": [
+      "bo",
+      "##iau",
+      "##a",
+      "##cu"
+    ],
+    "input_ids": [
+      1077,
+      7541,
+      148,
+      1930
+    ]
+  },
+  {
+    "palavra": "yururá",
+    "significado": "tartaruga",
+    "tokens": [
+      "yuru",
+      "##ra"
+    ],
+    "input_ids": [
+      2794,
+      259
+    ]
+  },
+  {
+    "palavra": "paranã",
+    "significado": "rio",
+    "tokens": [
+      "parana"
+    ],
+    "input_ids": [
+      1468
+    ]
+  },
+  {
+    "palavra": "pakowã",
+    "significado": "banana",
+    "tokens": [
+      "pa",
+      "##ko",
+      "##wa"
+    ],
+    "input_ids": [
+      313,
+      1990,
+      261
+    ]
+  },
+  {
+    "palavra": "wí",
+    "significado": "farinha",
+    "tokens": [
+      "w",
+      "##i"
+    ],
+    "input_ids": [
+      81,
+      155
+    ]
+  },
+  {
+    "palavra": "katuçawa",
+    "significado": "bondade",
+    "tokens": [
+      "katu",
+      "##ca",
+      "##wa"
+    ],
+    "input_ids": [
+      4304,
+      829,
+      261
+    ]
+  },
+  {
+    "palavra": "taba",
+    "significado": "aldeia",
+    "tokens": [
+      "ta",
+      "##ba"
+    ],
+    "input_ids": [
+      263,
+      876
+    ]
+  },
+  {
+    "palavra": "apukitá",
+    "significado": "remo",
+    "tokens": [
+      "apu",
+      "##ki",
+      "##ta"
+    ],
+    "input_ids": [
+      1099,
+      385,
+      262
+    ]
+  },
+  {
+    "palavra": "pituna",
+    "significado": "noite",
+    "tokens": [
+      "pituna"
+    ],
+    "input_ids": [
+      692
+    ]
+  },
+  {
+    "palavra": "açu",
+    "significado": "grande",
+    "tokens": [
+      "acu"
+    ],
+    "input_ids": [
+      6645
+    ]
+  },
+  {
+    "palavra": "katú",
+    "significado": "bom",
+    "tokens": [
+      "katu"
+    ],
+    "input_ids": [
+      4304
+    ]
+  },
+  {
+    "palavra": "ikuntu",
+    "significado": "quietar",
+    "tokens": [
+      "iku",
+      "##ntu"
+    ],
+    "input_ids": [
+      1503,
+      592
+    ]
+  },
+  {
+    "palavra": "ikuntu",
+    "significado": "tranquilizar",
+    "tokens": [
+      "iku",
+      "##ntu"
+    ],
+    "input_ids": [
+      1503,
+      592
+    ]
+  },
+  {
+    "palavra": "kunhã",
+    "significado": "mulher",
+    "tokens": [
+      "kunha"
+    ],
+    "input_ids": [
+      3776
+    ]
+  },
+  {
+    "palavra": "cirú",
+    "significado": "vasilha",
+    "tokens": [
+      "ci",
+      "##ru"
+    ],
+    "input_ids": [
+      2189,
+      270
+    ]
+  },
+  {
+    "palavra": "igara",
+    "significado": "barco",
+    "tokens": [
+      "igara"
+    ],
+    "input_ids": [
+      672
+    ]
+  },
+  {
+    "palavra": "igara",
+    "significado": "canoa",
+    "tokens": [
+      "igara"
+    ],
+    "input_ids": [
+      672
+    ]
+  },
+  {
+    "palavra": "yutima",
+    "significado": "plantar",
+    "tokens": [
+      "yutima"
+    ],
+    "input_ids": [
+      10708
+    ]
+  },
+  {
+    "palavra": "yutima",
+    "significado": "enterrar",
+    "tokens": [
+      "yutima"
+    ],
+    "input_ids": [
+      10708
+    ]
+  },
+  {
+    "palavra": "anga",
+    "significado": "alma",
+    "tokens": [
+      "anga"
+    ],
+    "input_ids": [
+      1868
+    ]
+  },
+  {
+    "palavra": "darápe",
+    "significado": "prato",
+    "tokens": [
+      "dara",
+      "##pe"
+    ],
+    "input_ids": [
+      5404,
+      325
+    ]
+  },
+  {
+    "palavra": "darápe",
+    "significado": "louça de mesa",
+    "tokens": [
+      "dara",
+      "##pe"
+    ],
+    "input_ids": [
+      5404,
+      325
+    ]
+  },
+  {
+    "palavra": "eré",
+    "significado": "sim",
+    "tokens": [
+      "e",
+      "##re"
+    ],
+    "input_ids": [
+      63,
+      339
+    ]
+  },
+  {
+    "palavra": "kirimbawa",
+    "significado": "forte",
+    "tokens": [
+      "kirimbawa"
+    ],
+    "input_ids": [
+      1076
+    ]
+  },
+  {
+    "palavra": "çãã",
+    "significado": "sentir",
+    "tokens": [
+      "ca",
+      "##a"
+    ],
+    "input_ids": [
+      733,
+      148
+    ]
+  },
+  {
+    "palavra": "gapenú",
+    "significado": "onda",
+    "tokens": [
+      "ga",
+      "##pe",
+      "##nu"
+    ],
+    "input_ids": [
+      1630,
+      325,
+      445
+    ]
+  },
+  {
+    "palavra": "ipawa",
+    "significado": "lago",
+    "tokens": [
+      "ipawa"
+    ],
+    "input_ids": [
+      2918
+    ]
+  },
+  {
+    "palavra": "çēdú",
+    "significado": "ouvir",
+    "tokens": [
+      "ce",
+      "##du"
+    ],
+    "input_ids": [
+      2911,
+      328
+    ]
+  },
+  {
+    "palavra": "awati",
+    "significado": "milho",
+    "tokens": [
+      "awa",
+      "##ti"
+    ],
+    "input_ids": [
+      833,
+      293
+    ]
+  },
+  {
+    "palavra": "mamé",
+    "significado": "onde",
+    "tokens": [
+      "mame"
+    ],
+    "input_ids": [
+      1482
+    ]
+  },
+  {
+    "palavra": "papera",
+    "significado": "papel",
+    "tokens": [
+      "papera"
+    ],
+    "input_ids": [
+      1651
+    ]
+  },
+  {
+    "palavra": "tuiúka",
+    "significado": "barro",
+    "tokens": [
+      "tu",
+      "##iu",
+      "##ka"
+    ],
+    "input_ids": [
+      373,
+      9645,
+      265
+    ]
+  },
+  {
+    "palavra": "itá",
+    "significado": "pedra",
+    "tokens": [
+      "ita"
+    ],
+    "input_ids": [
+      315
+    ]
+  },
+  {
+    "palavra": "açú",
+    "significado": "grande",
+    "tokens": [
+      "acu"
+    ],
+    "input_ids": [
+      6645
+    ]
+  },
+  {
+    "palavra": "darapi",
+    "significado": "panela de barro",
+    "tokens": [
+      "dara",
+      "##pi"
+    ],
+    "input_ids": [
+      5404,
+      277
+    ]
+  },
+  {
+    "palavra": "yawareté",
+    "significado": "onça",
+    "tokens": [
+      "yawarete"
+    ],
+    "input_ids": [
+      6013
+    ]
+  },
+  {
+    "palavra": "iraruka",
+    "significado": "colméia",
+    "tokens": [
+      "ira",
+      "##ruka"
+    ],
+    "input_ids": [
+      2108,
+      595
+    ]
+  },
+  {
+    "palavra": "ipirungaua",
+    "significado": "começo",
+    "tokens": [
+      "ipi",
+      "##rung",
+      "##au",
+      "##a"
+    ],
+    "input_ids": [
+      3399,
+      6996,
+      1011,
+      148
+    ]
+  },
+  {
+    "palavra": "ipirungaua",
+    "significado": "início",
+    "tokens": [
+      "ipi",
+      "##rung",
+      "##au",
+      "##a"
+    ],
+    "input_ids": [
+      3399,
+      6996,
+      1011,
+      148
+    ]
+  },
+  {
+    "palavra": "awatii",
+    "significado": "arroz",
+    "tokens": [
+      "awa",
+      "##ti",
+      "##i"
+    ],
+    "input_ids": [
+      833,
+      293,
+      155
+    ]
+  },
+  {
+    "palavra": "kuyera imiráwara",
+    "significado": "colher de pau",
+    "tokens": [
+      "ku",
+      "##yera",
+      "im",
+      "##irawa",
+      "##ra"
+    ],
+    "input_ids": [
+      272,
+      1680,
+      6679,
+      10621,
+      259
+    ]
+  },
+  {
+    "palavra": "mukaturu",
+    "significado": "concertar",
+    "tokens": [
+      "mukaturu"
+    ],
+    "input_ids": [
+      12495
+    ]
+  },
+  {
+    "palavra": "iwá",
+    "significado": "fruta",
+    "tokens": [
+      "iwa"
+    ],
+    "input_ids": [
+      586
+    ]
+  },
+  {
+    "palavra": "iwá",
+    "significado": "fruto",
+    "tokens": [
+      "iwa"
+    ],
+    "input_ids": [
+      586
+    ]
+  },
+  {
+    "palavra": "tupasá",
+    "significado": "corda",
+    "tokens": [
+      "tupa",
+      "##sa"
+    ],
+    "input_ids": [
+      2017,
+      273
+    ]
+  },
+  {
+    "palavra": "tuxáua",
+    "significado": "cacique",
+    "tokens": [
+      "tuxaua"
+    ],
+    "input_ids": [
+      11129
+    ]
+  },
+  {
+    "palavra": "axirura",
+    "significado": "roupa",
+    "tokens": [
+      "axi",
+      "##rura"
+    ],
+    "input_ids": [
+      9103,
+      1367
+    ]
+  },
+  {
+    "palavra": "uasému",
+    "significado": "achar",
+    "tokens": [
+      "ua",
+      "##semu"
+    ],
+    "input_ids": [
+      1678,
+      505
+    ]
+  },
+  {
+    "palavra": "uasému",
+    "significado": "encontrar",
+    "tokens": [
+      "ua",
+      "##semu"
+    ],
+    "input_ids": [
+      1678,
+      505
+    ]
+  },
+  {
+    "palavra": "uatá",
+    "significado": "andar",
+    "tokens": [
+      "ua",
+      "##ta"
+    ],
+    "input_ids": [
+      1678,
+      262
+    ]
+  },
+  {
+    "palavra": "uatá",
+    "significado": "caminhar",
+    "tokens": [
+      "ua",
+      "##ta"
+    ],
+    "input_ids": [
+      1678,
+      262
+    ]
+  },
+  {
+    "palavra": "mimí",
+    "significado": "aí",
+    "tokens": [
+      "mimi"
+    ],
+    "input_ids": [
+      1845
+    ]
+  },
+  {
+    "palavra": "mimí",
+    "significado": "ali",
+    "tokens": [
+      "mimi"
+    ],
+    "input_ids": [
+      1845
+    ]
+  },
+  {
+    "palavra": "tamanduá",
+    "significado": "tamanduá",
+    "tokens": [
+      "tamandua"
+    ],
+    "input_ids": [
+      13390
+    ]
+  },
+  {
+    "palavra": "pisá",
+    "significado": "rede de pesca",
+    "tokens": [
+      "pisa"
+    ],
+    "input_ids": [
+      943
+    ]
+  },
+  {
+    "palavra": "cuára",
+    "significado": "buraco",
+    "tokens": [
+      "cu",
+      "##ara"
+    ],
+    "input_ids": [
+      4098,
+      425
+    ]
+  },
+  {
+    "palavra": "kuara",
+    "significado": "buraco",
+    "tokens": [
+      "kua",
+      "##ra"
+    ],
+    "input_ids": [
+      3170,
+      259
+    ]
+  },
+  {
+    "palavra": "piráçawa",
+    "significado": "pescaria",
+    "tokens": [
+      "pira",
+      "##ca",
+      "##wa"
+    ],
+    "input_ids": [
+      637,
+      829,
+      261
+    ]
+  },
+  {
+    "palavra": "pindaíua",
+    "significado": "vara de pescar",
+    "tokens": [
+      "pinda",
+      "##iu",
+      "##a"
+    ],
+    "input_ids": [
+      11181,
+      9645,
+      148
+    ]
+  },
+  {
+    "palavra": "ariré",
+    "significado": "depois disso",
+    "tokens": [
+      "arire"
+    ],
+    "input_ids": [
+      6438
+    ]
+  },
+  {
+    "palavra": "ariré",
+    "significado": "mais tarde",
+    "tokens": [
+      "arire"
+    ],
+    "input_ids": [
+      6438
+    ]
+  },
+  {
+    "palavra": "pãnhé",
+    "significado": "todos",
+    "tokens": [
+      "panhe"
+    ],
+    "input_ids": [
+      4263
+    ]
+  },
+  {
+    "palavra": "pãnhé",
+    "significado": "todo",
+    "tokens": [
+      "panhe"
+    ],
+    "input_ids": [
+      4263
+    ]
+  },
+  {
+    "palavra": "kuriwara",
+    "significado": "hoje",
+    "tokens": [
+      "kuri",
+      "##wara"
+    ],
+    "input_ids": [
+      552,
+      368
+    ]
+  },
+  {
+    "palavra": "kuatiá",
+    "significado": "escrever",
+    "tokens": [
+      "kua",
+      "##tia"
+    ],
+    "input_ids": [
+      3170,
+      4786
+    ]
+  },
+  {
+    "palavra": "kutuká",
+    "significado": "furar",
+    "tokens": [
+      "kutu",
+      "##ka"
+    ],
+    "input_ids": [
+      10218,
+      265
+    ]
+  },
+  {
+    "palavra": "munhã",
+    "significado": "fazer",
+    "tokens": [
+      "munha"
+    ],
+    "input_ids": [
+      1692
+    ]
+  },
+  {
+    "palavra": "nhe'eng",
+    "significado": "falar",
+    "tokens": [
+      "nhe",
+      "'",
+      "en",
+      "##g"
+    ],
+    "input_ids": [
+      5768,
+      8,
+      3119,
+      166
+    ]
+  },
+  {
+    "palavra": "kapuamu",
+    "significado": "ilha",
+    "tokens": [
+      "kapuamu"
+    ],
+    "input_ids": [
+      6318
+    ]
+  },
+  {
+    "palavra": "ike",
+    "significado": "aqui",
+    "tokens": [
+      "ike"
+    ],
+    "input_ids": [
+      832
+    ]
+  },
+  {
+    "palavra": "ixe",
+    "significado": "eu",
+    "tokens": [
+      "ixe"
+    ],
+    "input_ids": [
+      1966
+    ]
+  },
+  {
+    "palavra": "penhe",
+    "significado": "vocês",
+    "tokens": [
+      "penhe"
+    ],
+    "input_ids": [
+      5790
+    ]
+  },
+  {
+    "palavra": "inde",
+    "significado": "você",
+    "tokens": [
+      "inde"
+    ],
+    "input_ids": [
+      9241
+    ]
+  },
+  {
+    "palavra": "yande",
+    "significado": "nós",
+    "tokens": [
+      "yande"
+    ],
+    "input_ids": [
+      2068
+    ]
+  },
+  {
+    "palavra": "iwi",
+    "significado": "terra",
+    "tokens": [
+      "iwi"
+    ],
+    "input_ids": [
+      2844
+    ]
+  },
+  {
+    "palavra": "kunhã-muku",
+    "significado": "moças",
+    "tokens": [
+      "kunha",
+      "-",
+      "muku"
+    ],
+    "input_ids": [
+      3776,
+      14,
+      1396
+    ]
+  },
+  {
+    "palavra": "ranha",
+    "significado": "dente",
+    "tokens": [
+      "ranha"
+    ],
+    "input_ids": [
+      4821
+    ]
+  },
+  {
+    "palavra": "s-umuara",
+    "significado": "companheiro",
+    "tokens": [
+      "s",
+      "-",
+      "umua",
+      "##ra"
+    ],
+    "input_ids": [
+      77,
+      14,
+      1268,
+      259
+    ]
+  },
+  {
+    "palavra": "timbiú",
+    "significado": "comida",
+    "tokens": [
+      "timbiu"
+    ],
+    "input_ids": [
+      7216
+    ]
+  },
+  {
+    "palavra": "s-uwaki",
+    "significado": "proximidade",
+    "tokens": [
+      "s",
+      "-",
+      "uwa",
+      "##ki"
+    ],
+    "input_ids": [
+      77,
+      14,
+      509,
+      385
+    ]
+  },
+  {
+    "palavra": "mira",
+    "significado": "pessoa",
+    "tokens": [
+      "mira"
+    ],
+    "input_ids": [
+      459
+    ]
+  },
+  {
+    "palavra": "mira",
+    "significado": "gente",
+    "tokens": [
+      "mira"
+    ],
+    "input_ids": [
+      459
+    ]
+  },
+  {
+    "palavra": "kupixa",
+    "significado": "roça",
+    "tokens": [
+      "kupi",
+      "##xa"
+    ],
+    "input_ids": [
+      990,
+      1450
+    ]
+  },
+  {
+    "palavra": "u-riku",
+    "significado": "ter",
+    "tokens": [
+      "u",
+      "-",
+      "riku"
+    ],
+    "input_ids": [
+      79,
+      14,
+      774
+    ]
+  },
+  {
+    "palavra": "u-riku",
+    "significado": "tem",
+    "tokens": [
+      "u",
+      "-",
+      "riku"
+    ],
+    "input_ids": [
+      79,
+      14,
+      774
+    ]
+  },
+  {
+    "palavra": "u-riku",
+    "significado": "possui",
+    "tokens": [
+      "u",
+      "-",
+      "riku"
+    ],
+    "input_ids": [
+      79,
+      14,
+      774
+    ]
+  },
+  {
+    "palavra": "iwá",
+    "significado": "fruta",
+    "tokens": [
+      "iwa"
+    ],
+    "input_ids": [
+      586
+    ]
+  },
+  {
+    "palavra": "yutima",
+    "significado": "plantar",
+    "tokens": [
+      "yutima"
+    ],
+    "input_ids": [
+      10708
+    ]
+  },
+  {
+    "palavra": "iku",
+    "significado": "estar",
+    "tokens": [
+      "iku"
+    ],
+    "input_ids": [
+      1503
+    ]
+  },
+  {
+    "palavra": "puranga",
+    "significado": "bonita",
+    "tokens": [
+      "puranga"
+    ],
+    "input_ids": [
+      417
+    ]
+  },
+  {
+    "palavra": "poranga",
+    "significado": "bonita",
+    "tokens": [
+      "por",
+      "##an",
+      "##ga"
+    ],
+    "input_ids": [
+      2602,
+      561,
+      282
+    ]
+  },
+  {
+    "palavra": "yana",
+    "significado": "correr",
+    "tokens": [
+      "yan",
+      "##a"
+    ],
+    "input_ids": [
+      551,
+      148
+    ]
+  },
+  {
+    "palavra": "iwate",
+    "significado": "alto",
+    "tokens": [
+      "iwa",
+      "##te"
+    ],
+    "input_ids": [
+      586,
+      429
+    ]
+  },
+  {
+    "palavra": "kuxima",
+    "significado": "antigamente",
+    "tokens": [
+      "kuxima"
+    ],
+    "input_ids": [
+      1855
+    ]
+  },
+  {
+    "palavra": "kuiri",
+    "significado": "agora",
+    "tokens": [
+      "kuiri"
+    ],
+    "input_ids": [
+      2291
+    ]
+  },
+  {
+    "palavra": "wirande",
+    "significado": "amanhã",
+    "tokens": [
+      "wira",
+      "##nde"
+    ],
+    "input_ids": [
+      854,
+      703
+    ]
+  },
+  {
+    "palavra": "kuema",
+    "significado": "manhã",
+    "tokens": [
+      "kuema"
+    ],
+    "input_ids": [
+      5184
+    ]
+  },
+  {
+    "palavra": "kuese",
+    "significado": "ontem",
+    "tokens": [
+      "kue",
+      "##se"
+    ],
+    "input_ids": [
+      2214,
+      323
+    ]
+  },
+  {
+    "palavra": "sendu",
+    "significado": "ouvir",
+    "tokens": [
+      "se",
+      "##ndu"
+    ],
+    "input_ids": [
+      296,
+      504
+    ]
+  },
+  {
+    "palavra": "maã",
+    "significado": "ver",
+    "tokens": [
+      "maa"
+    ],
+    "input_ids": [
+      3167
+    ]
+  },
+  {
+    "palavra": "su",
+    "significado": "ir",
+    "tokens": [
+      "su"
+    ],
+    "input_ids": [
+      280
+    ]
+  },
+  {
+    "palavra": "puraki",
+    "significado": "trabalhar",
+    "tokens": [
+      "puraki"
+    ],
+    "input_ids": [
+      664
+    ]
+  },
+  {
+    "palavra": "sika",
+    "significado": "chegar",
+    "tokens": [
+      "sika"
+    ],
+    "input_ids": [
+      1218
+    ]
+  },
+  {
+    "palavra": "kiri",
+    "significado": "dormir",
+    "tokens": [
+      "kiri"
+    ],
+    "input_ids": [
+      865
+    ]
+  },
+  {
+    "palavra": "paka",
+    "significado": "acordar",
+    "tokens": [
+      "paka"
+    ],
+    "input_ids": [
+      4814
+    ]
+  },
+  {
+    "palavra": "ate",
+    "significado": "até",
+    "tokens": [
+      "ate"
+    ],
+    "input_ids": [
+      2748
+    ]
+  },
+  {
+    "palavra": "kía",
+    "significado": "sujo",
+    "tokens": [
+      "kia"
+    ],
+    "input_ids": [
+      3403
+    ]
+  },
+  {
+    "palavra": "pusé",
+    "significado": "pesada",
+    "tokens": [
+      "puse"
+    ],
+    "input_ids": [
+      4764
+    ]
+  },
+  {
+    "palavra": "pisaru",
+    "significado": "nova",
+    "tokens": [
+      "pisa",
+      "##ru"
+    ],
+    "input_ids": [
+      943,
+      270
+    ]
+  },
+  {
+    "palavra": "tempu",
+    "significado": "tempo",
+    "tokens": [
+      "tempu"
+    ],
+    "input_ids": [
+      13518
+    ]
+  },
+  {
+    "palavra": "maye",
+    "significado": "como",
+    "tokens": [
+      "maye"
+    ],
+    "input_ids": [
+      889
+    ]
+  },
+  {
+    "palavra": "mirá",
+    "significado": "árvore",
+    "tokens": [
+      "mira"
+    ],
+    "input_ids": [
+      459
+    ]
+  },
+  {
+    "palavra": "yenū",
+    "significado": "deitar",
+    "tokens": [
+      "ye",
+      "##nu"
+    ],
+    "input_ids": [
+      298,
+      445
+    ]
+  },
+  {
+    "palavra": "mimi",
+    "significado": "longe",
+    "tokens": [
+      "mimi"
+    ],
+    "input_ids": [
+      1845
+    ]
+  },
+  {
+    "palavra": "aikue",
+    "significado": "havia",
+    "tokens": [
+      "aiku",
+      "##e"
+    ],
+    "input_ids": [
+      566,
+      156
+    ]
+  },
+  {
+    "palavra": "nheē",
+    "significado": "dizer",
+    "tokens": [
+      "nhee"
+    ],
+    "input_ids": [
+      2015
+    ]
+  },
+  {
+    "palavra": "mame",
+    "significado": "onde",
+    "tokens": [
+      "mame"
+    ],
+    "input_ids": [
+      1482
+    ]
+  },
+  {
+    "palavra": "sasa",
+    "significado": "passar",
+    "tokens": [
+      "sa",
+      "##sa"
+    ],
+    "input_ids": [
+      388,
+      273
+    ]
+  },
+  {
+    "palavra": "kuaye",
+    "significado": "assim",
+    "tokens": [
+      "kua",
+      "##ye"
+    ],
+    "input_ids": [
+      3170,
+      514
+    ]
+  },
+  {
+    "palavra": "munuka",
+    "significado": "cortar",
+    "tokens": [
+      "munu",
+      "##ka"
+    ],
+    "input_ids": [
+      10456,
+      265
+    ]
+  },
+  {
+    "palavra": "piré",
+    "significado": "peixe",
+    "tokens": [
+      "pi",
+      "##re"
+    ],
+    "input_ids": [
+      382,
+      339
+    ]
+  },
+  {
+    "palavra": "pinaitikasara",
+    "significado": "pescador",
+    "tokens": [
+      "pinaitikasara"
+    ],
+    "input_ids": [
+      2884
+    ]
+  },
+  {
+    "palavra": "suri",
+    "significado": "alegre",
+    "tokens": [
+      "suri"
+    ],
+    "input_ids": [
+      4220
+    ]
+  },
+  {
+    "palavra": "yumbue",
+    "significado": "aprender",
+    "tokens": [
+      "yumbue"
+    ],
+    "input_ids": [
+      4805
+    ]
+  },
+  {
+    "palavra": "maã",
+    "significado": "ver",
+    "tokens": [
+      "maa"
+    ],
+    "input_ids": [
+      3167
+    ]
+  },
+  {
+    "palavra": "taina",
+    "significado": "criança",
+    "tokens": [
+      "taina"
+    ],
+    "input_ids": [
+      2576
+    ]
+  },
+  {
+    "palavra": "taina-miri",
+    "significado": "criancinha",
+    "tokens": [
+      "taina",
+      "-",
+      "miri"
+    ],
+    "input_ids": [
+      2576,
+      14,
+      1183
+    ]
+  },
+  {
+    "palavra": "wasu",
+    "significado": "grande",
+    "tokens": [
+      "wasu"
+    ],
+    "input_ids": [
+      1746
+    ]
+  },
+  {
+    "palavra": "yakare",
+    "significado": "jacaré",
+    "tokens": [
+      "yaka",
+      "##re"
+    ],
+    "input_ids": [
+      7091,
+      339
+    ]
+  },
+  {
+    "palavra": "anama",
+    "significado": "família",
+    "tokens": [
+      "anama"
+    ],
+    "input_ids": [
+      1021
+    ]
+  },
+  {
+    "palavra": "ri",
+    "significado": "vir",
+    "tokens": [
+      "ri"
+    ],
+    "input_ids": [
+      742
+    ]
+  },
+  {
+    "palavra": "uwiara",
+    "significado": "hoje",
+    "tokens": [
+      "uwi",
+      "##ara"
+    ],
+    "input_ids": [
+      5448,
+      425
+    ]
+  },
+  {
+    "palavra": "vivei",
+    "significado": "viver",
+    "tokens": [
+      "vi",
+      "##ve",
+      "##i"
+    ],
+    "input_ids": [
+      2055,
+      578,
+      155
+    ]
+  },
+  {
+    "palavra": "kultura",
+    "significado": "cultura",
+    "tokens": [
+      "ku",
+      "##l",
+      "##tura"
+    ],
+    "input_ids": [
+      272,
+      181,
+      2521
+    ]
+  },
+  {
+    "palavra": "pita",
+    "significado": "ficar",
+    "tokens": [
+      "pita"
+    ],
+    "input_ids": [
+      836
+    ]
+  },
+  {
+    "palavra": "nunka",
+    "significado": "nunca",
+    "tokens": [
+      "nu",
+      "##nka"
+    ],
+    "input_ids": [
+      834,
+      9572
+    ]
+  },
+  {
+    "palavra": "yupiru",
+    "significado": "começar",
+    "tokens": [
+      "yupiru"
+    ],
+    "input_ids": [
+      2010
+    ]
+  },
+  {
+    "palavra": "ruka",
+    "significado": "casa",
+    "tokens": [
+      "ruka"
+    ],
+    "input_ids": [
+      542
+    ]
+  },
+  {
+    "palavra": "ukapi",
+    "significado": "quarto",
+    "tokens": [
+      "ukapi"
+    ],
+    "input_ids": [
+      5859
+    ]
+  },
+  {
+    "palavra": "yaxiu",
+    "significado": "chorar",
+    "tokens": [
+      "yaxi",
+      "##u"
+    ],
+    "input_ids": [
+      7094,
+      150
+    ]
+  },
+  {
+    "palavra": "amana",
+    "significado": "chuva",
+    "tokens": [
+      "amana"
+    ],
+    "input_ids": [
+      1902
+    ]
+  },
+  {
+    "palavra": "akiti",
+    "significado": "para lá",
+    "tokens": [
+      "ak",
+      "##iti"
+    ],
+    "input_ids": [
+      9094,
+      4667
+    ]
+  },
+  {
+    "palavra": "senui",
+    "significado": "chamar",
+    "tokens": [
+      "senui"
+    ],
+    "input_ids": [
+      10611
+    ]
+  },
+  {
+    "palavra": "sikári",
+    "significado": "procurar",
+    "tokens": [
+      "sikari"
+    ],
+    "input_ids": [
+      2259
+    ]
+  },
+  {
+    "palavra": "puámu",
+    "significado": "levantar-se",
+    "tokens": [
+      "puam",
+      "##u"
+    ],
+    "input_ids": [
+      4226,
+      150
+    ]
+  },
+  {
+    "palavra": "puámu",
+    "significado": "erguer-se",
+    "tokens": [
+      "puam",
+      "##u"
+    ],
+    "input_ids": [
+      4226,
+      150
+    ]
+  },
+  {
+    "palavra": "sukuera",
+    "significado": "carne",
+    "tokens": [
+      "suku",
+      "##era"
+    ],
+    "input_ids": [
+      2959,
+      321
+    ]
+  },
+  {
+    "palavra": "taua",
+    "significado": "cidade",
+    "tokens": [
+      "tau",
+      "##a"
+    ],
+    "input_ids": [
+      911,
+      148
+    ]
+  },
+  {
+    "palavra": "sikári",
+    "significado": "procurar",
+    "tokens": [
+      "sikari"
+    ],
+    "input_ids": [
+      2259
+    ]
+  },
+  {
+    "palavra": "supitá",
+    "significado": "tronco",
+    "tokens": [
+      "supi",
+      "##ta"
+    ],
+    "input_ids": [
+      956,
+      262
+    ]
+  },
+  {
+    "palavra": "sendu",
+    "significado": "ouvir",
+    "tokens": [
+      "se",
+      "##ndu"
+    ],
+    "input_ids": [
+      296,
+      504
+    ]
+  },
+  {
+    "palavra": "saã",
+    "significado": "sentir",
+    "tokens": [
+      "saa"
+    ],
+    "input_ids": [
+      11231
+    ]
+  },
+  {
+    "palavra": "mena",
+    "significado": "marido",
+    "tokens": [
+      "mena"
+    ],
+    "input_ids": [
+      965
+    ]
+  },
+  {
+    "palavra": "rakanga",
+    "significado": "galho",
+    "tokens": [
+      "rakanga"
+    ],
+    "input_ids": [
+      5124
+    ]
+  },
+  {
+    "palavra": "tatá",
+    "significado": "fogo",
+    "tokens": [
+      "tata"
+    ],
+    "input_ids": [
+      2508
+    ]
+  },
+  {
+    "palavra": "uiramiri",
+    "significado": "passarinho",
+    "tokens": [
+      "uira",
+      "##miri"
+    ],
+    "input_ids": [
+      9391,
+      835
+    ]
+  },
+  {
+    "palavra": "uira",
+    "significado": "pássaro",
+    "tokens": [
+      "uira"
+    ],
+    "input_ids": [
+      9391
+    ]
+  },
+  {
+    "palavra": "uira",
+    "significado": "ave",
+    "tokens": [
+      "uira"
+    ],
+    "input_ids": [
+      9391
+    ]
+  },
+  {
+    "palavra": "wirá",
+    "significado": "pássaro",
+    "tokens": [
+      "wira"
+    ],
+    "input_ids": [
+      854
+    ]
+  },
+  {
+    "palavra": "wirá",
+    "significado": "ave",
+    "tokens": [
+      "wira"
+    ],
+    "input_ids": [
+      854
+    ]
+  },
+  {
+    "palavra": "uirapuru",
+    "significado": "pássaro enfeitado",
+    "tokens": [
+      "uira",
+      "##puru"
+    ],
+    "input_ids": [
+      9391,
+      4770
+    ]
+  },
+  {
+    "palavra": "purú",
+    "significado": "enfeitado",
+    "tokens": [
+      "puru"
+    ],
+    "input_ids": [
+      1303
+    ]
+  },
+  {
+    "palavra": "purú",
+    "significado": "pintado",
+    "tokens": [
+      "puru"
+    ],
+    "input_ids": [
+      1303
+    ]
+  },
+  {
+    "palavra": "ukáripe",
+    "significado": "fora",
+    "tokens": [
+      "uka",
+      "##ri",
+      "##pe"
+    ],
+    "input_ids": [
+      476,
+      260,
+      325
+    ]
+  },
+  {
+    "palavra": "ruaki",
+    "significado": "lado",
+    "tokens": [
+      "ruaki"
+    ],
+    "input_ids": [
+      2558
+    ]
+  },
+  {
+    "palavra": "munuka",
+    "significado": "cortar",
+    "tokens": [
+      "munu",
+      "##ka"
+    ],
+    "input_ids": [
+      10456,
+      265
+    ]
+  },
+  {
+    "palavra": "seẽ",
+    "significado": "doce",
+    "tokens": [
+      "see"
+    ],
+    "input_ids": [
+      5690
+    ]
+  },
+  {
+    "palavra": "kuere",
+    "significado": "cansado",
+    "tokens": [
+      "kue",
+      "##re"
+    ],
+    "input_ids": [
+      2214,
+      339
+    ]
+  },
+  {
+    "palavra": "kamundu",
+    "significado": "caçar",
+    "tokens": [
+      "kamu",
+      "##ndu"
+    ],
+    "input_ids": [
+      1460,
+      504
+    ]
+  },
+  {
+    "palavra": "ira",
+    "significado": "mel",
+    "tokens": [
+      "ira"
+    ],
+    "input_ids": [
+      2108
+    ]
+  },
+  {
+    "palavra": "iepeaua",
+    "significado": "lenha",
+    "tokens": [
+      "ie",
+      "##pe",
+      "##au",
+      "##a"
+    ],
+    "input_ids": [
+      3395,
+      325,
+      1011,
+      148
+    ]
+  },
+  {
+    "palavra": "iumasi",
+    "significado": "faminto",
+    "tokens": [
+      "iu",
+      "##masi"
+    ],
+    "input_ids": [
+      1212,
+      6991
+    ]
+  },
+  {
+    "palavra": "ora",
+    "significado": "hora",
+    "tokens": [
+      "or",
+      "##a"
+    ],
+    "input_ids": [
+      3713,
+      148
+    ]
+  },
+  {
+    "palavra": "iumana",
+    "significado": "abraçar",
+    "tokens": [
+      "iu",
+      "##mana"
+    ],
+    "input_ids": [
+      1212,
+      1366
+    ]
+  },
+  {
+    "palavra": "ú",
+    "significado": "beber",
+    "tokens": [
+      "u"
+    ],
+    "input_ids": [
+      79
+    ]
+  },
+  {
+    "palavra": "ú",
+    "significado": "tomar",
+    "tokens": [
+      "u"
+    ],
+    "input_ids": [
+      79
+    ]
+  },
+  {
+    "palavra": "uatá",
+    "significado": "andar",
+    "tokens": [
+      "ua",
+      "##ta"
+    ],
+    "input_ids": [
+      1678,
+      262
+    ]
+  },
+  {
+    "palavra": "uatá",
+    "significado": "caminhar",
+    "tokens": [
+      "ua",
+      "##ta"
+    ],
+    "input_ids": [
+      1678,
+      262
+    ]
+  },
+  {
+    "palavra": "memui",
+    "significado": "cozinhar",
+    "tokens": [
+      "memu",
+      "##i"
+    ],
+    "input_ids": [
+      4352,
+      155
+    ]
+  },
+  {
+    "palavra": "munhã",
+    "significado": "fazer",
+    "tokens": [
+      "munha"
+    ],
+    "input_ids": [
+      1692
+    ]
+  },
+  {
+    "palavra": "mundeka",
+    "significado": "acender",
+    "tokens": [
+      "mund",
+      "##e",
+      "##ka"
+    ],
+    "input_ids": [
+      1691,
+      156,
+      265
+    ]
+  },
+  {
+    "palavra": "mungitá",
+    "significado": "ler",
+    "tokens": [
+      "mungita"
+    ],
+    "input_ids": [
+      4779
+    ]
+  },
+  {
+    "palavra": "mungaturu",
+    "significado": "arrumar",
+    "tokens": [
+      "mung",
+      "##a",
+      "##turu"
+    ],
+    "input_ids": [
+      10461,
+      148,
+      1941
+    ]
+  },
+  {
+    "palavra": "mungaturu",
+    "significado": "consertar",
+    "tokens": [
+      "mung",
+      "##a",
+      "##turu"
+    ],
+    "input_ids": [
+      10461,
+      148,
+      1941
+    ]
+  },
+  {
+    "palavra": "murári",
+    "significado": "morar",
+    "tokens": [
+      "mura",
+      "##ri"
+    ],
+    "input_ids": [
+      390,
+      260
+    ]
+  },
+  {
+    "palavra": "mupuka",
+    "significado": "quebrar",
+    "tokens": [
+      "mu",
+      "##puka"
+    ],
+    "input_ids": [
+      289,
+      950
+    ]
+  },
+  {
+    "palavra": "manha",
+    "significado": "mãe",
+    "tokens": [
+      "manha"
+    ],
+    "input_ids": [
+      736
+    ]
+  },
+  {
+    "palavra": "pisika",
+    "significado": "pegar",
+    "tokens": [
+      "pisika"
+    ],
+    "input_ids": [
+      3222
+    ]
+  },
+  {
+    "palavra": "piruka",
+    "significado": "descansar",
+    "tokens": [
+      "piruka"
+    ],
+    "input_ids": [
+      11175
+    ]
+  },
+  {
+    "palavra": "mitica",
+    "significado": "plantação",
+    "tokens": [
+      "mi",
+      "##tica"
+    ],
+    "input_ids": [
+      365,
+      3801
+    ]
+  },
+  {
+    "palavra": "mirá",
+    "significado": "madeira",
+    "tokens": [
+      "mira"
+    ],
+    "input_ids": [
+      459
+    ]
+  },
+  {
+    "palavra": "mukamee",
+    "significado": "mostrar",
+    "tokens": [
+      "mukamee"
+    ],
+    "input_ids": [
+      15744
+    ]
+  },
+  {
+    "palavra": "sapukaia",
+    "significado": "galinha",
+    "tokens": [
+      "sapukaia"
+    ],
+    "input_ids": [
+      16546
+    ]
+  },
+  {
+    "palavra": "sura",
+    "significado": "esperar",
+    "tokens": [
+      "sura"
+    ],
+    "input_ids": [
+      1062
+    ]
+  },
+  {
+    "palavra": "suú",
+    "significado": "animal",
+    "tokens": [
+      "suu"
+    ],
+    "input_ids": [
+      1061
+    ]
+  },
+  {
+    "palavra": "suasu",
+    "significado": "veado",
+    "tokens": [
+      "sua",
+      "##su"
+    ],
+    "input_ids": [
+      1369,
+      271
+    ]
+  },
+  {
+    "palavra": "uí",
+    "significado": "farinha",
+    "tokens": [
+      "ui"
+    ],
+    "input_ids": [
+      4123
+    ]
+  },
+  {
+    "palavra": "tupasá",
+    "significado": "corda",
+    "tokens": [
+      "tupa",
+      "##sa"
+    ],
+    "input_ids": [
+      2017,
+      273
+    ]
+  },
+  {
+    "palavra": "xipu",
+    "significado": "cipó",
+    "tokens": [
+      "xi",
+      "##pu"
+    ],
+    "input_ids": [
+      513,
+      284
+    ]
+  },
+  {
+    "palavra": "uiké",
+    "significado": "entrar",
+    "tokens": [
+      "uik",
+      "##e"
+    ],
+    "input_ids": [
+      3717,
+      156
+    ]
+  },
+  {
+    "palavra": "riré",
+    "significado": "após",
+    "tokens": [
+      "rire"
+    ],
+    "input_ids": [
+      2443
+    ]
+  },
+  {
+    "palavra": "riré",
+    "significado": "depois de",
+    "tokens": [
+      "rire"
+    ],
+    "input_ids": [
+      2443
+    ]
+  }
+]
