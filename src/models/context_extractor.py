@@ -1,5 +1,13 @@
 import torch
+import warnings
+import transformers
 from transformers import AutoTokenizer, AutoModel
+
+# 1. Silencia os avisos verbosos do Hugging Face (A tabela de UNEXPECTED / MISSING)
+transformers.logging.set_verbosity_error()
+
+# 2. Silencia avisos gerais do Python (como o alerta de HF_TOKEN)
+warnings.filterwarnings("ignore")
 
 MODELS = {
     "yrl": "dominguesm/canarim-bert-nheengatu",
@@ -17,7 +25,7 @@ def load_ai_ecosystem():
 
 def extract_contextual_vector(sentence, target_word, tokenizer, model):
     """Realiza o Offset Mapping e extrai o vetor isolado impregnado de contexto."""
-    char_start = sentence.find(target_word)
+    char_start = sentence.lower().find(target_word.lower())
     if char_start == -1:
         return None
     char_end = char_start + len(target_word)
