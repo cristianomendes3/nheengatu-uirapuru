@@ -1,13 +1,12 @@
-# Motor Matemático e IA
-torch
-transformers
-scikit-learn
-
-# Ingestão e Estruturação de Dados
+streamlit
 pandas
 openpyxl
 datasets
-
-# Diagnóstico Topológico (Gráficos)
+torch
+transformers
+numpy
+scikit-learn
 matplotlib
 seaborn
+plotly
+Pillow

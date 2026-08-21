@@ -5,11 +5,11 @@ import torch
 import json
 import warnings
 
-# --- CORREÇÃO DE ROTA ABSOLUTA ---
-# Pega o caminho exato de onde você rodou o comando (a raiz nheengatu-uirapuru)
+# --- CONFIGURAÇÃO DE ROTAS ABSOLUTAS ---
+# Estabelece a raiz do projeto dinamicamente para execuções em diferentes ambientes (Local/Cloud)
 PROJECT_ROOT = os.getcwd()
 
-# Mapeia a pasta models dinamicamente para permitir a importação
+# Injeção no sys.path para garantir a resolução de módulos internos
 sys.path.append(os.path.join(PROJECT_ROOT, "src", "models"))
 
 try:
@@ -18,10 +18,10 @@ except ModuleNotFoundError:
     print("[ERRO FATAL] Não foi possível encontrar o arquivo 'context_extractor.py' na pasta 'src/models/'.")
     sys.exit(1)
 
-# Silenciar avisos e logs não essenciais
+# Supressão de logs secundários gerados pelo HuggingFace/PyTorch
 warnings.filterwarnings("ignore")
 
-# Caminhos apontando para a raiz do terminal
+# Resolução de diretórios de I/O
 ARQUIVO_SENTENCAS = os.path.join(PROJECT_ROOT, "data", "raw", "sentencas.csv")
 ARQUIVO_DICIONARIO_JSON = os.path.join(PROJECT_ROOT, "data", "processed", "dataset_nheengatu_expandido.json")
 ARQUIVO_DICIONARIO_CSV = os.path.join(PROJECT_ROOT, "data", "processed", "dataset_nheengatu_expandido.csv")
@@ -31,20 +31,31 @@ OUT_Y_POOL = os.path.join(PROJECT_ROOT, "data", "processed", "pool_Y_pt.pt")
 OUT_VOCAB = os.path.join(PROJECT_ROOT, "data", "processed", "pool_vocab.json")
 
 def garimpar_piscina_contextualizada():
-    print(f"[INFO] Iniciando o garimpeiro a partir da raiz: {PROJECT_ROOT}")
+    """
+    Minera sentenças in-domain para extração de contexto latente.
+
+    Varre um corpus de sentenças buscando ocorrências diretas das palavras
+    do dicionário base. Ao encontrar um pareamento válido em ambos os idiomas,
+    extrai os tensores hiperdimensionais utilizando as redes Transformer.
+    Estes tensores compõem a 'Piscina de Desconhecidos' para inferências Zero-Shot.
+
+    Returns:
+        None: Escreve os artefatos tensores (.pt) e de vocabulário (.json) em disco.
+    """
+    print(f"[INFO] Iniciando o pipeline de mineração contextual a partir da raiz: {PROJECT_ROOT}")
     
-    # 1. Busca Flexível das Sentenças
+    # Validação estrutural do arquivo de sentenças
     if not os.path.exists(ARQUIVO_SENTENCAS):
         fallback_sentencas = os.path.join(PROJECT_ROOT, "sentencas.csv")
         if os.path.exists(fallback_sentencas):
             caminho_sentencas = fallback_sentencas
         else:
-            print(f"[ERRO] Sentenças não encontradas em:\n -> {ARQUIVO_SENTENCAS}\n -> {fallback_sentencas}")
+            print(f"[ERRO] Sentenças não encontradas nas rotas especificadas.")
             return
     else:
         caminho_sentencas = ARQUIVO_SENTENCAS
 
-    # 2. Busca Flexível do Dicionário (Aceita JSON ou CSV)
+    # Validação estrutural do dicionário base (suporte híbrido a JSON/CSV)
     caminho_dic = None
     eh_json = False
     if os.path.exists(ARQUIVO_DICIONARIO_JSON):
@@ -53,15 +64,16 @@ def garimpar_piscina_contextualizada():
     elif os.path.exists(ARQUIVO_DICIONARIO_CSV):
         caminho_dic = ARQUIVO_DICIONARIO_CSV
     else:
-        print(f"[ERRO] Dicionário não encontrado. Procurei por:\n -> {ARQUIVO_DICIONARIO_JSON}\n -> {ARQUIVO_DICIONARIO_CSV}")
+        print(f"[ERRO] Dicionário de processamento não encontrado.")
         return
         
     print(f"   -> Usando Sentenças de: {caminho_sentencas}")
     print(f"   -> Usando Dicionário de: {caminho_dic}")
 
-    # Carrega os Dados
+    # Carregamento do DataFrame de sentenças
     df_sentencas = pd.read_csv(caminho_sentencas)
     
+    # Processamento e extração do dicionário
     dicionario = []
     if eh_json:
         with open(caminho_dic, 'r', encoding='utf-8') as f:
@@ -73,19 +85,19 @@ def garimpar_piscina_contextualizada():
             pt = row.get("significado", row.iloc[1])
             dicionario.append({"palavra": yrl, "significado": pt})
             
-    # Carrega a IA
+    # Inicialização em memória dos modelos de IA
     tok_yrl, mod_yrl, tok_pt, mod_pt = load_ai_ecosystem()
     
     lista_X, lista_Y, vocabularios = [], [], []
     pares_encontrados = 0
     
-    print(f"\n[INFO] Iniciando mineração in-domain de {len(dicionario)} palavras. Isso pode levar alguns segundos...")
+    print(f"\n[INFO] Iniciando mineração in-domain ({len(dicionario)} palavras alvo)...")
     
     for item in dicionario:
         palavra_yrl = str(item.get("palavra", "")).strip()
         palavra_pt = str(item.get("significado", "")).strip()
         
-        # Limpa o PT caso haja múltiplos significados (ex: "puranga; poranga")
+        # Sanitização do alvo primário em casos de polissemia aglutinada
         palavra_pt = palavra_pt.split(';')[0].split(',')[0].strip()
         
         if not palavra_yrl or not palavra_pt:
@@ -97,7 +109,7 @@ def garimpar_piscina_contextualizada():
         frase_yrl_encontrada = None
         frase_pt_encontrada = None
         
-        # Varredura (Garimpo)
+        # Algoritmo de busca por correspondência exata de strings
         for _, row in df_sentencas.iterrows():
             s_yrl = str(row['Nheengatu'])
             s_pt = str(row['Sentença no português'])
@@ -107,6 +119,7 @@ def garimpar_piscina_contextualizada():
                 frase_pt_encontrada = s_pt
                 break
         
+        # Extração hiperdimensional para instâncias confirmadas
         if frase_yrl_encontrada and frase_pt_encontrada:
             vec_yrl = extract_contextual_vector(frase_yrl_encontrada, palavra_yrl, tok_yrl, mod_yrl)
             vec_pt = extract_contextual_vector(frase_pt_encontrada, palavra_pt, tok_pt, mod_pt)
@@ -118,21 +131,24 @@ def garimpar_piscina_contextualizada():
                 pares_encontrados += 1
                 
     if pares_encontrados == 0:
-        print("❌ Nenhum par contextualizado pôde ser extraído da base de sentenças.")
+        print("[ERRO] Nenhum par contextualizado pôde ser extraído da base de sentenças.")
         return
         
+    # Empacotamento matemático
     tensor_X = torch.stack(lista_X)
     tensor_Y = torch.stack(lista_Y)
     
-    print(f"\n✅ Garimpo Concluído com Sucesso! {tensor_X.shape[0]} pares com contexto real foram extraídos para a piscina.")
+    print(f"\n[SUCESSO] Garimpo concluído: {tensor_X.shape[0]} pares mapeados com sucesso.")
     
+    # Exportação dos tensores processados
     os.makedirs(os.path.dirname(OUT_X_POOL), exist_ok=True)
     torch.save(tensor_X, OUT_X_POOL)
     torch.save(tensor_Y, OUT_Y_POOL)
+    
     with open(OUT_VOCAB, "w", encoding="utf-8") as f:
         json.dump(vocabularios, f, ensure_ascii=False, indent=2)
         
-    print("💾 Piscina In-Domain salva com sucesso. O Procrustes Iterativo está pronto para rodar.")
+    print("[INFO] Artefatos in-domain estruturados e salvos no diretório local.")
 
 if __name__ == "__main__":
     garimpar_piscina_contextualizada()

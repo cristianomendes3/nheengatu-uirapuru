@@ -2,12 +2,25 @@ import pandas as pd
 from datasets import Dataset
 import os
 import sys
-from normalizer import clean_text_nheengatu # Importando o nosso escudo
+
+# Importa o módulo de higienização de texto
+from normalizer import clean_text_nheengatu
 
 ARQUIVO_ENTRADA = "data/raw/palavras_nheengatu_completo.xlsx"
 ARQUIVO_SAIDA = "data/processed/dataset_nheengatu_raw"
 
 def ingest_and_clean_data():
+    """
+    Realiza a ingestão, limpeza e normalização do corpus bruto.
+
+    Lê a planilha Excel original, garante a integridade das colunas alvo
+    ('Palavra' e 'Significado'), aplica o pipeline de normalização textual
+    (NFC e remoção de ruídos) e converte o resultado para a estrutura
+    Dataset do Apache Arrow (Hugging Face).
+
+    Returns:
+        Dataset: Objeto Dataset contendo os pares semânticos limpos.
+    """
     print(f"[INFO] Iniciando ingestão do arquivo: {ARQUIVO_ENTRADA}")
 
     if not os.path.exists(ARQUIVO_ENTRADA):
@@ -26,15 +39,15 @@ def ingest_and_clean_data():
 
     print(f"[INFO] Base carregada. Total bruto: {len(df)} linhas.")
 
-    # APLICAÇÃO DO ESCUDO TECNOLÓGICO (Normalização NFC e Limpeza)
+    # Aplicação do pipeline de sanitização (NFC e Regex)
     print("[INFO] Aplicando normalização NFC e limpeza algorítmica...")
     df['Palavra'] = df['Palavra'].apply(clean_text_nheengatu)
     df['Significado'] = df['Significado'].apply(clean_text_nheengatu)
     
-    # Removendo possíveis linhas que ficaram vazias após a limpeza
+    # Remoção de instâncias nulas residuais pós-limpeza
     df = df[(df['Palavra'] != "") & (df['Significado'] != "")]
 
-    # Conversão para Hugging Face Dataset
+    # Estruturação para o padrão de leitura dos modelos Transformers
     print("[INFO] Convertendo para a estrutura Apache Arrow (Hugging Face)...")
     hf_dataset = Dataset.from_pandas(df)
     
@@ -43,5 +56,5 @@ def ingest_and_clean_data():
 
 if __name__ == "__main__":
     dataset = ingest_and_clean_data()
-    # Exibir primeira linha para auditoria visual
+    # Log de auditoria visual da primeira entrada processada
     print(dataset[0])

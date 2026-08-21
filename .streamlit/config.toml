@@ -1,0 +1,14 @@
+[theme]
+# O laranja/vermelho vibrante das penas do Uirapuru para os botões e destaques
+primaryColor = "#E65100"
+
+# Um fundo quase branco, levemente "gelo", para manter a leitura limpa e acadêmica
+backgroundColor = "#F8F9FA"
+
+# Um ciano/verde bem suave (baseado no fundo da tela e nas folhas) para as barras laterais e painéis
+secondaryBackgroundColor = "#E0F2F1"
+
+# Cinza escuro/preto para garantir contraste e acessibilidade na leitura
+textColor = "#1E1E1E"
+
+font = "sans serif"

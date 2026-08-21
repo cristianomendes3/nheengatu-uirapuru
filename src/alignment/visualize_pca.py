@@ -6,88 +6,97 @@ import seaborn as sns
 from sklearn.decomposition import PCA
 import warnings
 
-# Silenciar avisos e logs de fontes do Matplotlib ou Seaborn
+# Bloqueio de logs oriundos do Matplotlib/Seaborn durante plotting
 warnings.filterwarnings("ignore")
 
-# Caminhos Dinâmicos Absolutos
+# Identificação e vinculação de caminhos locais
 PROJECT_ROOT = os.getcwd()
 MATRIZ_X_PATH = os.path.join(PROJECT_ROOT, "data", "processed", "matriz_X_yrl.pt")
 MATRIZ_Y_PATH = os.path.join(PROJECT_ROOT, "data", "processed", "matriz_Y_pt.pt")
 W_PATH = os.path.join(PROJECT_ROOT, "data", "processed", "matriz_W_estrita.pt")
 
-# Caminho da Saída Visual
+# Apontamentos de gravação de imagens
 OUT_DIR = os.path.join(PROJECT_ROOT, "outputs")
 OUT_FILE = os.path.join(OUT_DIR, "pca_alignment.png")
 
 def gerar_grafico_pca():
-    print("📈 Iniciando a extração da Prova Visual de Alinhamento (PCA)...")
+    """
+    Renderiza uma representação Euclidiana comprimida do alinhamento geométrico.
 
-    # 1. Validação de Arquivos
+    Utiliza Análise de Componentes Principais (PCA) para reduzir os vetores de
+    768 dimensões para planos visuais de 2 componentes. Avalia a eficácia da matriz W 
+    em transladar e comprimir os tensores do Nheengatu de forma a espelhar a distribuição
+    dos tensores nativos da língua Portuguesa.
+
+    Returns:
+        None: Exporta a renderização analítica final no formato .png em alta resolução.
+    """
+    print("[INFO] Acionando rotina de documentação visual matricial (PCA-2D)...")
+
+    # Validação rigorosa do pipeline anterior
     if not all(os.path.exists(p) for p in [MATRIZ_X_PATH, MATRIZ_Y_PATH, W_PATH]):
-        print("[ERRO FATAL] Tensores ou Matriz W não encontrados. Execute o orthogonal_procrustes.py primeiro.")
+        print("[ERRO FATAL] O artefato W ou as tensores de entrada não estão disponíveis. O script 'orthogonal_procrustes.py' deve ser executado primariamente.")
         return
 
-    # 2. Carregamento dos Tensores (768 dimensões)
-    print("   -> Carregando matrizes do hiperespaço...")
+    # Descompactação das coordenadas 
+    print("[AÇÃO] Carregamento matricial para a memória RAM (768 Dimensões)...")
     X = torch.load(MATRIZ_X_PATH)
     Y = torch.load(MATRIZ_Y_PATH)
     W = torch.load(W_PATH)
 
-    # 3. Alinhamento Estrito (Projeção do Nheengatu no Espaço do PT)
-    print("   -> Aplicando a translação e rotação da Matriz W...")
+    # Execução do Salto Geométrico Parametrizado
+    print("[AÇÃO] Rotacionando o léxico Nheengatu no interior do espaço referencial...")
     X_mean = X.mean(dim=0, keepdim=True)
     Y_mean = Y.mean(dim=0, keepdim=True)
     
     Y_pred = torch.matmul(X - X_mean, W) + Y_mean
 
-    # Convertendo de Tensores PyTorch para Arrays NumPy
+    # Modulação de matrizes de Pytorch para o framework NumPy
     Y_np = Y.numpy()
     Y_pred_np = Y_pred.numpy()
 
-    # 4. Redução Dimensional Parametrizada
-    print("   -> Calculando as Componentes Principais (PCA) conjuntas...")
-    # Concatenar para garantir o mesmo sistema de coordenadas na redução
+    # Operação Estatística Híbrida
+    print("[AÇÃO] Compactando componentes lineares unificadas (PCA Conjunto)...")
     matriz_combinada = np.vstack([Y_np, Y_pred_np])
     
     pca = PCA(n_components=2)
     matriz_2d = pca.fit_transform(matriz_combinada)
     
-    # Separando de volta após a compressão 2D
+    # Desmembramento espacial das matrizes para exibição individual
     tamanho_pt = len(Y_np)
     Y_pca = matriz_2d[:tamanho_pt]
     Y_pred_pca = matriz_2d[tamanho_pt:]
 
-    # 5. Geração do Gráfico de Dispersão
-    print("   -> Plotando o gráfico de dispersão...")
+    # Plotagem utilizando o Seaborn Framework
+    print("[AÇÃO] Renderizando imagem de dispersão relacional...")
     sns.set_theme(style="whitegrid")
     plt.figure(figsize=(10, 8))
     
-    # Plotando Português (Vermelho) e Nheengatu Projetado (Azul)
     sns.scatterplot(
         x=Y_pca[:, 0], y=Y_pca[:, 1], 
-        color="#e74c3c", label="Português (Base)", 
+        color="#e74c3c", label="Português (Referência Fixa)", 
         alpha=0.6, s=60, edgecolor="k"
     )
     
     sns.scatterplot(
         x=Y_pred_pca[:, 0], y=Y_pred_pca[:, 1], 
-        color="#3498db", label="Nheengatu (Projetado)", 
+        color="#3498db", label="Nheengatu (Projeção Alinhada)", 
         alpha=0.6, s=60, edgecolor="k"
     )
 
-    # Estilização para ambiente acadêmico
-    plt.title("Isomorfismo Geométrico: Nheengatu Projetado vs. Português", fontsize=14, fontweight="bold", pad=15)
-    plt.xlabel("Componente Principal 1", fontsize=11)
-    plt.ylabel("Componente Principal 2", fontsize=11)
+    # Hierarquia e titulação formal da exportação
+    plt.title("Validação de Isomorfismo: Reflexão Vetorial via Matriz Procrustes", fontsize=14, fontweight="bold", pad=15)
+    plt.xlabel("Vetor de Redução 1 (PCA)", fontsize=11)
+    plt.ylabel("Vetor de Redução 2 (PCA)", fontsize=11)
     plt.legend(loc="upper right", frameon=True, fontsize=10)
     plt.tight_layout()
 
-    # 6. Exportação em Alta Resolução
+    # Serialização estática
     os.makedirs(OUT_DIR, exist_ok=True)
     plt.savefig(OUT_FILE, dpi=300, bbox_inches='tight')
     plt.close()
     
-    print(f"✅ Prova visual gerada com sucesso e exportada para:\n -> {OUT_FILE}")
+    print(f"[SUCESSO] Impressão final do PCA gerada na rota: {OUT_FILE}")
 
 if __name__ == "__main__":
     gerar_grafico_pca()
