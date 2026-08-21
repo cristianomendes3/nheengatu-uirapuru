@@ -57,7 +57,7 @@ nheengatu-uirapuru/
 **1. Clone o repositório e instale as dependências:**
 
 ```bash
-git clone [https://github.com/SEU_USUARIO/nheengatu-uirapuru.git](https://github.com/SEU_USUARIO/nheengatu-uirapuru.git)
+git clone https://github.com/cristianomendes3/nheengatu-uirapuru.git
 cd nheengatu-uirapuru
 pip install -r requirements.txt
 
@@ -105,7 +105,3 @@ O aplicativo não retorna apenas a "Tradução" calculada, mas a justifica visua
 
 > **Desenvolvido e Auditado para Inovação Corporativa e Bancas Acadêmicas.**
 > *Low-Resource Language Processing (LRLP) | Teresina, Piauí, Brasil.*
-
-```
-
-***
