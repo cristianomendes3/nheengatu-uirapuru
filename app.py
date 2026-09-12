@@ -153,7 +153,7 @@ header_html = f"""
 <div class="glass-panel" style="display: flex; align-items: center; gap: 30px; margin-top: 10px; padding: 24px 32px;">
     {img_html}
     <div>
-        <h1 style='color: #2B3674; margin:0; font-weight: 900; font-size: 2.6rem; letter-spacing: -1px;'>Explorador Semântico Nheengatu-Português</h1>
+        <h1 style='color: #2B3674; margin:0; font-weight: 900; font-size: 2.6rem; letter-spacing: -1px;'>Explorador Semântico Nheengatu-Uirapuru</h1>
         <p style='color: #00838F; font-weight: 600; font-size: 1.15rem; margin: 8px 0 0 0;'>Dashboard Analítico de Alinhamento Hiperdimensional | IA Explicável (XAI)</p>
     </div>
 </div>
